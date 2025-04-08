@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Formulário V2</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <!-- 1 Formulário -->
+
+        <h1>Cadastro </h1>
+
+        <!-- Nome -->
+        <div>
+            <label>Nome <input type="text" name="name" id="name" placeholder="Digite seu Nome e Sobrenome" maxlength="30" required
+                    autofocus>
+            </label>
+        </div>
+        <br>
+
+        <!-- ID -->
+        <div>
+            <label>ID <input type="tel" name="name" id="name" placeholder="Digite o ID do Cliente" maxlength="30"
+                    required autofocus pattern="[0-9]*" inputmode="numeric">
+            </label>
+        </div>
+        <br>
+
+        <!-- Email, Label vinculada com input (for e id)-->
+        <div>
+            <label>Email <input type="email" name="email" id="email" placeholder="email@email.com.br" maxlength="50"
+                    required autocomplete></label>
+        </div>
+        <br>
+
+
+        <!-- Telefone -->
+        <div>
+            <label>Telefone <input type="tel" name="phone" id="phone" placeholder="(00) 00000-0000" required
+                    autocomplete="on"></label>
+        </div>
+        <br>
+
+
+        <div>
+            <label>Endereço <input type="text" name="address" id="address" placeholder="Rua da Banana N° 00" maxlength="30"
+                    required>
+            </label>
+        </div>
+        <br>
+
+
+        <!-- Mensagem -->
+        <div>
+            <label for="message">Indice sobre seu Perfil </label>
+            <textarea name="message" id="message" placeholder="Digite sua mensagem" rows="5" cols="20"
+                style="resize: none;" required></textarea>
+        </div><br>
+
+
+        <!-- Submit -->
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+        <br>
+
+    </form>
+
+</body>
+
+</html>
